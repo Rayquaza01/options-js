@@ -1,0 +1,49 @@
+body {
+  font-family: sans-serif;
+}
+
+.optionsSection {
+  display: flex;
+  flex-direction: column;
+}
+
+.optionsRow {
+  display: flex;
+  flex-direction: row;
+  flex-grow: 1;
+  align-items: center;
+  min-height: 30px;
+  margin-bottom: 2px;
+}
+
+.optionsRow label {
+  flex-grow: 1;
+  max-width: 25%;
+}
+
+.optionsRow input, div {
+  flex-grow: 2;
+}
+
+.optionsRow div {
+  display: flex;
+  flex-direction: row;
+}
+
+.optionsRow input[type=checkbox] {
+  flex-grow: 0 !important;
+}
+
+.arrayContainer {
+  display: flex;
+  flex-direction: column !important;
+}
+
+.color input[type=color] {
+  height: inherit;
+}
+
+input {
+  height: 15px;
+  padding-bottom: 5px;
+}
