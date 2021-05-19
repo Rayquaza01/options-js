@@ -1,0 +1,25 @@
+{
+  "name": "options-generator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rayquaza01/options-js.git"
+  },
+  "author": "Joe Jarvis",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Rayquaza01/options-js/issues"
+  },
+  "homepage": "https://github.com/Rayquaza01/options-js#readme",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.23.0",
+    "@typescript-eslint/parser": "^4.23.0",
+    "eslint": "^7.26.0",
+    "typescript": "^4.2.4"
+  }
+}
